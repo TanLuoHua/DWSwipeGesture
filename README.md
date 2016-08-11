@@ -1,7 +1,7 @@
 # DWSwipeGestures
 #如果喜欢，请Star
 ---
-###简化手势使用,支持[CocoaPods](https://github.com/dwanghello/DWSwipeGesture)导入📦
+###简化手势使用,支持CocoaPods导入📦
  ---
 # CocoaPods
      platform :ios, '8.0'
@@ -11,7 +11,7 @@
 #Clone
 	cd 本地路径
 	---
-	git clone https://github.com/dwanghello/DWSwipeGestures.git
+	git clone https://github.com/dwanghello/DWSwipeGesture.git
 ---
 ---
 ####导入封装完成文件
