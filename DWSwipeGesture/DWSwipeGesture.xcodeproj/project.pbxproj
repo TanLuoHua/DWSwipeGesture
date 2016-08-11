@@ -14,6 +14,7 @@
 		4A507EB61D5C43E3003C3B55 /* DWSwipeGesture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A507EB41D5C43E3003C3B55 /* DWSwipeGesture.xcdatamodeld */; };
 		4A507EB81D5C43E3003C3B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A507EB71D5C43E3003C3B55 /* Assets.xcassets */; };
 		4A507EBB1D5C43E3003C3B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A507EB91D5C43E3003C3B55 /* LaunchScreen.storyboard */; };
+		4A507EC51D5C44D3003C3B55 /* DWSwipeGestures.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A507EC41D5C44D3003C3B55 /* DWSwipeGestures.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		4A507EB71D5C43E3003C3B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A507EBA1D5C43E3003C3B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A507EBC1D5C43E3003C3B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A507EC31D5C44D3003C3B55 /* DWSwipeGestures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWSwipeGestures.h; sourceTree = "<group>"; };
+		4A507EC41D5C44D3003C3B55 /* DWSwipeGestures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWSwipeGestures.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,7 @@
 		4A507E9C1D5C43E3003C3B55 = {
 			isa = PBXGroup;
 			children = (
+				4A507EC21D5C44D3003C3B55 /* DWSwipeGestures */,
 				4A507EA71D5C43E3003C3B55 /* DWSwipeGesture */,
 				4A507EA61D5C43E3003C3B55 /* Products */,
 			);
@@ -80,6 +84,15 @@
 				4A507EA91D5C43E3003C3B55 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A507EC21D5C44D3003C3B55 /* DWSwipeGestures */ = {
+			isa = PBXGroup;
+			children = (
+				4A507EC31D5C44D3003C3B55 /* DWSwipeGestures.h */,
+				4A507EC41D5C44D3003C3B55 /* DWSwipeGestures.m */,
+			);
+			path = DWSwipeGestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A507EC51D5C44D3003C3B55 /* DWSwipeGestures.m in Sources */,
 				4A507EB01D5C43E3003C3B55 /* ViewController.m in Sources */,
 				4A507EB61D5C43E3003C3B55 /* DWSwipeGesture.xcdatamodeld in Sources */,
 				4A507EAD1D5C43E3003C3B55 /* AppDelegate.m in Sources */,
