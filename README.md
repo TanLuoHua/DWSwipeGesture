@@ -5,7 +5,7 @@
  ---
 # CocoaPods
      platform :ios, '8.0'
-     pod 'DWSwipeGestures'
+     pod 'DWSwipeGestures'#简化手势使用
    
  ---  
 #Clone
