@@ -10,11 +10,20 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_OPTIONS(NSUInteger, DWSwipeGestureType) {
-    DWTapGesture = 1 << 0,//敲击手势
-    DWLeftSwipeGestures  = 1 << 1,//左滑手势
-    DWRightSwipeGestures    = 1 << 2,//右滑手势
-    DWUpSwipeGestures  = 1 << 3,//上拉手势
-    DWDownSwipeGestures = 1 << 4//下拉手势
+   /** 敲击手势 */
+    DWTapGesture = 1 << 0,
+    
+    /** 左滑手势 */
+    DWLeftSwipeGestures  = 1 << 1,
+    
+    /** 右滑手势 */
+    DWRightSwipeGestures    = 1 << 2,
+    
+    /** 上拉手势 */
+    DWUpSwipeGestures  = 1 << 3,
+    
+    /** 下拉手势 */
+    DWDownSwipeGestures = 1 << 4
 };
 
 @interface DWSwipeGestures : NSObject

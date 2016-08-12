@@ -35,6 +35,7 @@
     return _swip;
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
   
@@ -50,27 +51,33 @@
         NSLog(@"%@",backSwipeGestureTypeString);
     
         }];
+
     
     //添加手势
-    [self.swip dw_SwipeGestureType:DWRightSwipeGestures Target:self Action:@selector(click) AddView:self.two BackSwipeGestureTypeString:^(NSString * _Nonnull backSwipeGestureTypeString) {
+    [self.swip dw_SwipeGestureType:DWRightSwipeGestures Target:self Action:@selector(right) AddView:self.two BackSwipeGestureTypeString:^(NSString * _Nonnull backSwipeGestureTypeString) {
         
         NSLog(@"%@",backSwipeGestureTypeString);
         
     }];
 
-        
+    
 }
 
 - (void)click {
     
-    NSLog(@"删除");
-    
-    NSLog(@"选择类型为第%lu个枚举值",(unsigned long)self.swip.swipeGestureType);
-    
-    //删除手势
-    [self.swip dw_RemoveSwipeGesture:DWTapGesture];
+    self.one.backgroundColor = [UIColor orangeColor];
     
 }
 
+- (void)right {
+    
+    NSLog(@"删除手势");
+    
+    self.two.backgroundColor = [UIColor whiteColor];
+    
+    //删除手势
+    [self.swip dw_RemoveSwipeGesture:DWRightSwipeGestures];
+    
+}
 
 @end
