@@ -1,6 +1,7 @@
 # DWSwipeGestures
 #如果喜欢，请Star
 #使用中如果遇到问题,可以加群:577506623
+#向大家推荐一个全新的开发者交流、代码分享平台:[CodeData](http://www.codedata.cn)
 ---
 ###简化手势使用,支持CocoaPods导入📦
  ---
